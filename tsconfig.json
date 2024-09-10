@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "declaration": true,
+    "lib": [
+      "es2022",
+      "dom"
+    ],
+    "esModuleInterop": true,
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": true,
+    "importHelpers": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "experimentalDecorators": true,
+    "paths": {
+      "$/utils": [
+        "node/utils.ts"
+      ]
+    }
+  },
+  "ts-node": {
+    "require": [
+      "tsconfig-paths/register"
+    ],
+    "esm": false,
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  },
+  "include": [
+    "src/**/*",
+    "scripts/**/*",
+  ],
+  "exclude": [
+    "**/__tests__/**/*",
+    "tests/**"
+  ]
+}
