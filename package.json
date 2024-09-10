@@ -1,8 +1,8 @@
 {
-  "name": "@arx/sdk",
-  "version": "0.2.11",
-  "description": "JS client for Arweave",
-  "repository": "https://github.com/NickJ202/arweave-js-sdk",
+  "name": "@permaweb/arx",
+  "version": "1.0.0",
+  "description": "upload data using bundle services with arx",
+  "repository": "https://github.com/permaweb/arx",
   "author": "ARx",
   "license": "Apache-2.0",
   "main": "./build/cjs/cjsIndex.js",

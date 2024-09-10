@@ -77,13 +77,13 @@ program
     }
   });
 
-program
-  .command("withdraw")
-  .description("Sends a fund withdrawal request")
-  .argument("<amount>", "amount to withdraw in token base units")
-  .action(async (_amount: string) => {
-    console.log("Withdraws are handled manually, please contact ar.io for further support");
-  });
+// program
+//   .command("withdraw")
+//   .description("Sends a fund withdrawal request")
+//   .argument("<amount>", "amount to withdraw in token base units")
+//   .action(async (_amount: string) => {
+//     console.log("Withdraws are handled manually, please contact ar.io for further support");
+//   });
 
 program
   .command("upload-dir")
@@ -135,8 +135,7 @@ program
       if (isNaN(+amount)) throw new Error("Amount must be an integer");
       const arx = await init(options, "fund");
       const confirmed = await confirmation(
-        `Confirmation: send ${amount} ${arx.tokenConfig.base[0]} (${arx.utils.unitConverter(amount).toFixed()} ${arx.token}) to ${
-          arx.api.config.url.host
+        `Confirmation: send ${amount} ${arx.tokenConfig.base[0]} (${arx.utils.unitConverter(amount).toFixed()} ${arx.token}) to ${arx.api.config.url.host
         } (${await arx.utils.getBundlerAddress(arx.token)})?\n Y / N`,
       );
       if (confirmed) {
