@@ -25,7 +25,7 @@ npm i -g @permaweb/arx
 
 ### CLI 
 
-By default, the `arx` cli points to the turbo bundle service from ardrive (https://turbo.ardrive.io), the turbo bundle service allows you to purchase "upload credits" called "turbo credits" to use to upload your data to the Arweave Storage Network. Currently, turbo bundle service supports AR, SOL, ETH, and POL as funding sources. You can also purchase "turbo credits" using Fiat at https://app.ardrive.io.
+By default, the `arx` cli points to the turbo bundle service from ardrive (https://turbo.ardrive.io), the turbo bundle service allows you to purchase non-refundable "upload credits" called "turbo credits" to use to upload your data to the Arweave Storage Network. Currently, turbo bundle service supports AR, SOL, ETH, and POL as funding sources. You can also purchase "turbo credits" using Fiat at https://turbo-topup.com/.
 
 #### Token names
 
@@ -70,7 +70,7 @@ arx price ${BYTES}
 
 ## SDK
 
-By default, the `arx` sdk points to the turbo bundle service from ardrive (https://turbo.ardrive.io), the turbo bundle service allows you to purchase "upload credits" called "turbo credits" to use to upload your data to the Arweave Storage Network. Currently, turbo bundle service supports AR, SOL, ETH, and POL as funding sources. You can also purchase "turbo credits" using Fiat at https://app.ardrive.io.
+By default, the `arx` sdk points to the turbo bundle service from ardrive (https://turbo.ardrive.io), the turbo bundle service allows you to purchase non-refundable "upload credits" called "turbo credits" to use to upload your data to the Arweave Storage Network. Currently, turbo bundle service supports AR, SOL, ETH, and POL as funding sources. You can also purchase "turbo credits" using Fiat at https://turbo-topup.com/.
 
 ### Setup 
 
